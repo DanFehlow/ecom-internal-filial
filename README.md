@@ -1,30 +1,16 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The objective of this project is for Boticário branches to make requests for products for the warehouse.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First, the user must inform the branch that will make the request:
+<img width="665" alt="image" src="https://github.com/user-attachments/assets/a75b94a5-2763-423b-a2b8-1d9d9d86c3d2" />
 
-## Expanding the ESLint configuration
+The user must inform the product category, the product itself, quantity and click Add:
+<img width="667" alt="image" src="https://github.com/user-attachments/assets/2fc91110-66cc-4a70-b843-5ffaf52bb775" />
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Once all the necessary products have been selected, the user must click Next:
+<img width="665" alt="image" src="https://github.com/user-attachments/assets/0d061d9b-046c-47d4-8f4d-a328a63e0e15" />
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+And finally, complete the order, which will be sent to the warehouse.
+<img width="667" alt="image" src="https://github.com/user-attachments/assets/1669490f-5c0e-45e0-a9e5-491dcd9dc595" />
